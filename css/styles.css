@@ -44,7 +44,6 @@ h6,
 p {
   margin: 0;
 }
-
 .container {
   width: 1158px;
   margin-left: auto;
@@ -80,40 +79,37 @@ img {
   overflow: hidden;
 }
 
+/* css index html */
 
-/* logo */
+/* header section*/
+.header .container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
 
-.logo { 
-  display: inline-block;
-  margin-bottom: 16px;
+.header {
+  border-bottom: 1px solid var(--color-cornflower);
+}
 
-  font-family: var(--primary-font);
+.nav-logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  margin-right: 76px;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-iris);
 }
 
-.logo-dark {
+.nav-logo-item {
   color: var(--color-navy-blue);
 }
 
-.logo-light{
-  color: var(--color-cloud);
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--color-iris);
-}
-
-
-/* site-nav-main */
-.nav{
+.nav {
   display: flex;
   align-items: center;
   margin-right: auto;
@@ -134,53 +130,34 @@ img {
 }
 
 .list .link {
-   color: var(--dark-color);
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-}
-
-.site-nav .link {
-
-  font-family: var(--secondery-font);
-  text-transform: capitalize;
-  font-style: normal;
+  color: var(--color-navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-navy-blue);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--color-ocean);
 }
 
-/* address */
+.address {
+  font-style: normal;
+}
+
+.address-item.link {
+  color: var(--color-slate);
+}
 
 .address .list {
   display: flex;
   gap: 40px;
 }
-.auth-nav .link {
-  font-family: var(--secondery-font);
-  text-transform: lowercase;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-slate);
 
-}
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--color-ocean);
+img {
+  display: block;
 }
 
 
@@ -368,7 +345,7 @@ text-transform: capitalize;
 /* footer */
 
 .footer {
-margin-bottom: 16px;
+  margin-bottom: 16px;
   padding: 100px 0;
   background-color: var(--color-navy-blue);
 }
