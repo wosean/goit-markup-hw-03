@@ -343,116 +343,39 @@ text-transform: capitalize;
 
 
 /* footer */
-
 .footer {
-  margin-bottom: 16px;
   padding: 100px 0;
   background-color: var(--color-navy-blue);
 }
 
-.footer-text {
-   
- 
-  width: 264px;
-  font-family: var(--secondery-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.footer-logo {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--color-iris);
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.footer-logo-item,
+.footer .text {
   color: var(--color-cloud);
+}
+
+.footer .text {
+  width: 264px;
 }
 
 
 
 
 /* ==========portfolio=========== */
-
-/* logo */
-
-.logo {
-  font-family: var(--primary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--color-iris);
-}
-
-.logo-dark {
-  color: var(--color-navy-blue);
-}
-
-.logo-light {
-  color: var(--color-cloud);
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--color-iris);
-}
-
-/* site-nav-main */
-
-.site-nav .link {
-  font-family: var(--secondery-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-navy-blue);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--color-ocean);
-}
-
-/* address */
-.address {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-
-.auth-nav .link {
-  font-family: var(--secondery-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-slate);
-}
-
-.auth-nav-mail link {
-  text-transform: lowercase;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-
-.auth-nav-tel link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--color-ocean);
-}
 
 /*filter-button  */
 
