@@ -129,6 +129,11 @@ img {
   padding-bottom: 24px;
 }
 
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--color-ocean);
+}
+
 .list .link {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -137,17 +142,24 @@ img {
   letter-spacing: 0.02em;
 }
 
-.list .link:hover,
-.list .link:focus {
-  color: var(--color-ocean);
-}
-
 .address {
   font-style: normal;
 }
 
 .address-item.link {
+  font-family: var(--secondery-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.address-item.link:hover,
+.address-item.link:focus{
+  cursor: pointer;
+  color: var(--color-ocean);
 }
 
 .address .list {
@@ -376,6 +388,7 @@ text-transform: capitalize;
 
 
 /* ==========portfolio=========== */
+
 
 /*filter-button  */
 
