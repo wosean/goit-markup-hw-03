@@ -146,7 +146,7 @@ img {
   font-style: normal;
 }
 
-.address-item.link {
+.address-link {
   font-family: var(--secondery-font);
   font-style: normal;
   font-weight: 400;
@@ -156,8 +156,8 @@ img {
   color: var(--color-slate);
 }
 
-.address-item.link:hover,
-.address-item.link:focus{
+.address-link:hover,
+.address-link:focus{
   cursor: pointer;
   color: var(--color-ocean);
 }
